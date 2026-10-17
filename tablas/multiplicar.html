@@ -8,13 +8,12 @@
 </head>
 <body>
 
-<!-- Sección superior con el botón -->
+
   <div class="top">
-    <button class="btn">PROBAR</button>
+    <button class="btn" onclick="generarTablas()">PROBAR</button>
   </div>
 
-  <!-- Contenedor principal de la tabla (clase 'tabla') -->
-  <div class="tabla">
+  <div class="tabla" id ="divTabla">
     <h2>Tabla del 3</h2>
     
     <div class="tabla-grid">
@@ -30,6 +29,8 @@
       <div class="fila">3 x 10 = 30</div>
     </div>
   </div>
+
+  <script src="multiplicar.js" defer></script>
 
 </body>
 </html>
