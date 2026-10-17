@@ -10,20 +10,23 @@
 
   <!-- Sección superior con la caja de texto y el botón -->
   <div class="top">
-    <input type="number" id="txtNumero" placeholder="¿Qué tabla?" class="input-tabla">
-    <button class="btn" onclick="generarTablas()">PROBAR</button>
-  </div>
-
-  <!-- Contenedor principal de la tabla -->
-  <div class="tabla" id="divTabla">
-    <h2>Tabla de Multiplicar</h2>
+    <h2>¡Aprende las Tablas jugando! 🚀</h2>
+    <p class="instruccion">Escribe el número de la tabla que quieres practicar:</p>
     
-    <div class="tabla-grid">
-      <div class="fila">¡Escribe un número arriba!</div>
+    <div class="controles">
+      <input type="number" id="txtNumero" placeholder="Ej: 5" class="input-tabla">
+      <button class="btn" onclick="generarTablas()">PROBAR</button>
     </div>
   </div>
 
-  <!-- Archivo JavaScript -->
+ <div class="tabla" id="divTabla">
+    <h2>¡Elige una tabla arriba para empezar! ✨</h2>
+    
+    <div class="tabla-grid">
+      <div class="fila">Aquí aparecerá tu tabla</div>
+    </div>
+  </div>
+
   <script src="multiplicar.js" defer></script>
 </body>
 </html>
